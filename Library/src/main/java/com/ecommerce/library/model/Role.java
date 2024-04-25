@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @Table(name = "roles")
 
 public class Role {
-
+//prueba
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "roles_id")
